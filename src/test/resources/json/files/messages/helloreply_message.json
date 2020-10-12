@@ -1,0 +1,92 @@
+{
+    "clientId": "42ddc662-f50c-4965-8cee-f919d7e748e9",
+    "type": "HELLO_REPLY",
+    "creationDate": "24.03.2020 2:01:39",
+    "debugMessage": "Das hast du gut gemacht, du Quaker!",
+    "sessionId": "315a470a-d519-4c18-a29e-db75c7381984",
+    "level": {
+        "scenario": [
+            [
+                "WALL",
+                "WALL",
+                "WALL",
+                "WALL"
+            ],
+            [
+                "WALL",
+                "FIREPLACE",
+                "WALL",
+                "BAR_TABLE"
+            ],
+            [
+                "WALL",
+                "BAR_TABLE",
+                "FREE",
+                "ROULETTE_TABLE"
+            ],
+            [
+                "WALL",
+                "BAR_SEAT",
+                "FREE",
+                "WALL"
+            ]
+        ]
+    },
+    "settings": {
+        "moledieRange": 1,
+        "bowlerBladeRange": 1,
+        "bowlerBladeHitChance": 0.25,
+        "bowlerBladeDamage": 4,
+        "laserCompactHitChance": 0.125,
+        "rocketPenDamage": 2,
+        "gasGlossDamage": 6,
+        "mothballPouchRange": 2,
+        "mothballPouchDamage": 1,
+        "minChipsRoulette": 3,
+        "maxChipsRoulette": 5,
+        "fogTinRange": 2,
+        "grappleRange": 3,
+        "grappleHitChance": 0.35,
+        "wiretapWithEarplugsFailChance": 0.64,
+        "mirrorSwapChance": 0.35,
+        "cocktailDodgeChance": 0.25,
+        "cocktailHp": 6,
+        "spySuccessChance": 0.65,
+        "babysitterSuccessChance": 0.25,
+        "honeyTrapSuccessChance": 0.35,
+        "observationSuccessChance": 0.12,
+        "chipsToIpFactor": 12,
+        "secretToIpFactor": 3,
+        "roundLimit": 15,
+        "turnPhaseLimit": 6,
+        "catIp": 8,
+        "strikeMaximum": 4,
+        "pauseLimit": 320,
+        "reconnectLimit": 20
+    },
+    "characterSettings": [
+        {
+            "name": "James Bond",
+            "description": "Bester Geheimagent aller Zeiten mit 00-Status.",
+            "gender": "DIVERSE",
+            "features": [
+                "SPRYNESS",
+                "TOUGHNESS",
+                "ROBUST_STOMACH",
+                "LUCKY_DEVIL",
+                "TRADECRAFT"
+            ],
+            "characterId": "ec03bbd4-d3ea-46b7-9d63-b10560d78709"
+        },
+        {
+            "name": "Meister Yoda",
+            "description": "Yoda (* 896 VSY; † 4 NSY auf Dagobah) gehörte einer unbekannten Spezies an, war 66 cm groß und war am Ende seines Lebens 900 Jahre alt. Er hatte in über 800 Jahren als Jedi-(Groß-)Meister zahlreiche Schüler in der Macht ausgebildet, darunter u. a. Luke Skywalker und Count Dooku, und war ein Meister im Umgang mit dem Lichtschwert.",
+            "features": [
+                "LUCKY_DEVIL",
+                "OBSERVATION",
+                "TOUGHNESS"
+            ],
+            "characterId": "d07b4fa6-eca3-4aee-89a2-270f6a3fa3fe"
+        }
+    ]
+}

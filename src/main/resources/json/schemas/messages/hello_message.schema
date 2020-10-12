@@ -1,0 +1,32 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "title": "The Root Schema for a Hello-Message, it will not directly include the base-as the clientId has to be null!",
+    "description": "The root schema comprises the entire JSON document.",
+    "required": [
+        "clientId",
+        "type",
+        "name",
+        "role"
+    ],
+    "allOf": [
+        {
+            "$ref": "messages/meta/message_core.schema"
+        }
+    ],
+    "properties": {
+        "clientId": {
+            "type": "null"
+        },
+        "type": {
+            "const": "HELLO"
+        },
+        "name": {
+            "type": "string",
+            "minLength": 2
+        },
+        "role": {
+            "$ref": "messages/meta/message_datatypes.schema/#/role"
+        }
+    }
+}

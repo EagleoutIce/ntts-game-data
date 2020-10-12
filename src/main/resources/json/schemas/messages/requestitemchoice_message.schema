@@ -1,0 +1,51 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "title": "The Root Schema for a RequestItemChoice-Message.",
+    "description": "The root schema comprises the entire JSON document.",
+    "required": [
+        "type",
+        "offeredCharacterIds",
+        "offeredGadgets"
+    ],
+    "allOf": [
+        {
+            "$ref": "messages/meta/message_base.schema"
+        }
+    ],
+    "properties": {
+        "type": {
+            "const": "REQUEST_ITEM_CHOICE"
+        },
+        "offeredCharacterIds": {
+            "anyOf": [
+                {
+                    "type": "null"
+                },
+                {
+                    "type": "array",
+                    "minItems": 0,
+                    "maxItems": 3,
+                    "items": {
+                        "$ref": "messages/meta/message_datatypes.schema/#/uuid"
+                    }
+                }
+            ]
+        },
+        "offeredGadgets": {
+            "anyOf": [
+                {
+                    "type": "null"
+                },
+                {
+                    "type": "array",
+                    "minItems": 0,
+                    "maxItems": 3,
+                    "items": {
+                        "$ref": "messages/meta/message_datatypes.schema/#/gadgets"
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "title": "The Root Schema for a GameLeave-Message.",
+    "description": "The root schema comprises the entire JSON document.",
+    "required": [
+        "type"
+    ],
+    "allOf": [{"$ref" : "messages/meta/message_base.schema"}],
+    "properties": {
+        "type": { "const": "GAME_LEAVE" }
+    }
+}

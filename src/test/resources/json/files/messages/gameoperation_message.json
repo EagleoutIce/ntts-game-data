@@ -1,0 +1,18 @@
+{
+    "clientId" : "42abc662-f50c-4965-8cee-f919d7e748e9",
+    "type" : "GAME_OPERATION",
+    "creationDate" : "25.03.2020 03:03:38",
+    "operation" : {
+        "type" : "MOVEMENT",
+        "successful": null,
+        "target": {
+            "x": 3,
+            "y": 5
+        },
+        "characterId": "5f3ed3c4-2065-435d-a07c-2b3e70910f48",
+        "from": {
+            "x" : -2,
+            "y" : -42
+        }
+    }
+}

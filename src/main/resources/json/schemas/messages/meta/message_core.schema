@@ -1,0 +1,41 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "title": "The Schema for the message core",
+    "description": "This excludes the type and the clientId to allow type-enforcements on children and to allow a nullable clienti",
+    "required": [
+        "creationDate"
+    ],
+    "additionalProperties": true,
+    "properties": {
+        "creationDate": {
+            "$id": "#/properties/creationDate",
+            "type": "string",
+            "title": "The Creationdate Schema",
+            "description": "Simple pre-checker to avoid wrong parsing. Invalidate dates are still possible. Could be done better :D. This one is nicer than standardized and allows missing 0",
+            "default": "",
+            "examples": [
+                "30.03.2020 23:08:19"
+            ],
+            "pattern": "[0-3]?[0-9]\\.[01]?[0-9]\\.[0-9]{2,4} [0-2]?[0-9](:[0-6]?[0-9]){2}"
+        },
+        "debugMessage": {
+            "anyOf": [
+                {
+                    "$id": "#/properties/debugMessage",
+                    "type": "null"
+                },
+                {
+                    "$id": "#/properties/debugMessage",
+                    "type": "string",
+                    "title": "The Debug message Schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": "",
+                    "examples": [
+                        "Das erlaube ich dir nicht!"
+                    ]
+                }
+            ]
+        }
+    }
+}

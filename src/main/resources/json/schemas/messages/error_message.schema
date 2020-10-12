@@ -1,0 +1,48 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "title": "The Root Schema for an Error-Message",
+    "description": "The root schema comprises the entire JSON document.",
+    "required": [
+        "type",
+        "reason"
+    ],
+    "allOf": [
+        {
+            "$ref": "messages/meta/message_core.schema"
+        }
+    ],
+    "properties": {
+        "clientId": {
+            "anyOf": [
+                {
+                    "type": "null"
+                },
+                {
+                    "$ref": "messages/meta/message_datatypes.schema/#/uuid"
+                }
+            ]
+        },
+        "type": {
+            "const": "ERROR"
+        },
+        "reason": {
+            "$id": "#/properties/reason",
+            "type": "string",
+            "title": "The Reason Schema",
+            "description": "The reason for the error.",
+            "default": "",
+            "enum": [
+                "NAME_NOT_AVAILABLE",
+                "ALREADY_SERVING",
+                "SESSION_DOES_NOT_EXIST",
+                "ILLEGAL_MESSAGE",
+                "TOO_MANY_STRIKES",
+                "GENERAL"
+            ],
+            "examples": [
+                "SESSION_DOES_NOT_EXIST"
+            ]
+        }
+    }
+}

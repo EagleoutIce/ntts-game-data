@@ -1,0 +1,18 @@
+{
+    "clientId" : "42ddc662-f50c-4965-8cee-f919d7e748e9",
+    "type" : "REQUEST_EQUIPMENT_CHOICE",
+    "creationDate" : "24.03.2020 04:06:39",
+    "debugMessage" : "Ich brauche noch etwas von dir.",
+    "chosenCharacterIds" : [
+        "ec03bbd4-d3ea-46b7-9d63-b10560d78709",
+        "229a0c7c-ce77-4982-8666-cd6e52fb1f73",
+        "f36cca4b-7557-483d-b873-d312657c60ca",
+        "d07b4fa6-eca3-4aee-89a2-270f6a3fa3fe"
+    ],
+    "chosenGadgets" : [
+        "BOWLER_BLADE",
+        "FOG_TIN",
+        "ROCKET_PEN",
+        "GAS_GLOSS"
+    ]
+}

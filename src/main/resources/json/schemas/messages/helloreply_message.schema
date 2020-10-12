@@ -1,0 +1,21 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "title": "The Root Schema for a HelloReply-Message.",
+    "description": "The root schema comprises the entire JSON document.",
+    "required": [
+        "type",
+        "sessionId",
+        "level",
+        "settings",
+        "characterSettings"
+    ],
+    "allOf": [{"$ref" : "messages/meta/message_base.schema"}],
+    "properties": {
+        "type": { "const": "HELLO_REPLY" },
+        "sessionId" : {"$ref": "messages/meta/message_datatypes.schema/#/uuid"},
+        "level": {"$ref": "messages/meta/message_datatypes.schema/#/scenario"},
+        "settings" : {"$ref": "messages/meta/message_datatypes.schema/#/matchconfig"},
+        "characterSettings" : {"$ref": "messages/meta/message_datatypes.schema/#/characters"}
+    }
+}

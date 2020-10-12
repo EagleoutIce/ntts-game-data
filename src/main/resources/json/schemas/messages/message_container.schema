@@ -1,0 +1,62 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "title": "The Root Schema for the MessageContainer",
+    "description": "The root schema comprises the entire JSON document for a MessageContainer-message. The clientId *is* nullable",
+    "required": [
+        "type",
+        "creationDate"
+    ],
+    "additionalProperties": true,
+    "allOf": [
+        {
+            "$ref": "messages/meta/message_core.schema"
+        }
+    ],
+    "properties": {
+        "clientId": {
+            "anyOf": [
+                {
+                    "type": "null"
+                },
+                {
+                    "$ref": "messages/meta/message_datatypes.schema/#/uuid"
+                }
+            ]
+        },
+        "type": {
+            "$id": "#/properties/type",
+            "type": "string",
+            "title": "The Type Schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "enum": [
+                "HELLO",
+                "HELLO_REPLY",
+                "RECONNECT",
+                "GAME_STARTED",
+                "REQUEST_ITEM_CHOICE",
+                "ITEM_CHOICE",
+                "REQUEST_EQUIPMENT_CHOICE",
+                "EQUIPMENT_CHOICE",
+                "GAME_STATUS",
+                "REQUEST_GAME_OPERATION",
+                "GAME_OPERATION",
+                "STATISTICS",
+                "GAME_LEAVE",
+                "GAME_LEFT",
+                "REQUEST_GAME_PAUSE",
+                "GAME_PAUSE",
+                "REQUEST_META_INFORMATION",
+                "META_INFORMATION",
+                "STRIKE",
+                "ERROR",
+                "REQUEST_REPLAY",
+                "REPLAY"
+            ],
+            "examples": [
+                "HELLO"
+            ]
+        }
+    }
+}

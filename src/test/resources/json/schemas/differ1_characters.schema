@@ -1,0 +1,74 @@
+{
+    "type": "array",
+    "title": "CharacterDescription[]",
+    "description": "Das Array an Character-Descriptions",
+    "items": {
+      "type": "object",
+      "$id": "#/items",
+      "title": "Eine CharacterDescription",
+      "description": "Beschreibt einen Charakter",
+      "default": {},
+      "required": [
+        "name",
+        "features"
+      ],
+      "properties": {
+        "description": {
+          "$id": "#/items/properties/description",
+          "type": "string",
+          "title": "CharacterDescription",
+          "description": "Die Beschreibung des Charakters"
+        },
+        "name": {
+          "$id": "#/items/properties/name",
+          "type": "string",
+          "title": "CharacterName",
+          "description": "Name des Charakters",
+          "minLength": 3
+        },
+        "gender": {
+          "$id": "#/items/properties/gender",
+          "type": "string",
+          "description": "Das Geschlecht eines Charakters",
+          "enum": [
+            "MALE",
+            "FEMALE",
+            "DIVERSE"
+          ],
+          "title": "CharacterGender"
+        },
+        "features": {
+          "$id": "#/items/properties/features",
+          "type": "array",
+          "title": "CharacterFeatures",
+          "description": "Fähigkeiten/Eigenschaften des Charakters",
+          "items": {
+            "$id": "#/items/properties/features/items",
+            "type": "string",
+            "title": "PropertyEnum",
+            "description": "Die verschiedenen Eigenschaften",
+            "enum": [
+              "NIMBLENESS",
+              "SLUGGISHNESS",
+              "SPRYNESS",
+              "BABYSITTER",
+              "HONEY_TRAP",
+              "BANG_AND_BURN",
+              "FLAPS_AND_SEALS",
+              "PONDEROUSNESS",
+              "TRADECRAFT",
+              "OBSERVATION",
+              "AGILITY",
+              "LUCKY_DEVIL",
+              "JINX",
+              "CLAMMY_CLOTHES",
+              "CONSTANT_CLAMMY_CLOTHES",
+              "ROBUST_STOMACH",
+              "TOUGHNESS"
+            ]
+          }
+        }
+      }
+    },
+    "uniqueItems": true
+  }

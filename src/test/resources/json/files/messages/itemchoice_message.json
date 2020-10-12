@@ -1,0 +1,8 @@
+{
+    "clientId" : "42ddc662-f50c-4965-8cee-f919d7e748e9",
+    "type" : "ITEM_CHOICE",
+    "creationDate" : "24.03.2020 04:02:42",
+    "debugMessage" : "Ich habe was für dich, das eigentlich nicht erlaubt sein sollte, sowohl ein Charakter aber auch ein Gadget ist gewählt, aber das ist (nur) für diesen Test ok!",
+    "chosenCharacterId" : "d07b4fa6-eca3-4aee-89a2-270f6a3fa3fe",
+    "chosenGadget" : "CHICKEN_FEED"
+}

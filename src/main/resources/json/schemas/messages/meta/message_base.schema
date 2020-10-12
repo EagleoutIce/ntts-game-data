@@ -1,0 +1,26 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "title": "The Schema for the message base",
+    "description": "This excludes the type to allow type-enforcements on children.",
+    "required": [
+        "clientId",
+        "creationDate"
+    ],
+    "additionalProperties": true,
+    "allOf": [{"$ref" : "message_core.schema"}],
+    "properties": {
+        "clientId" : {"$ref": "message_datatypes.schema/#/uuid"},
+        "creationDate": { "$ref": "message_datatypes.schema/#/date"},
+        "debugMessage": {
+            "$id": "#/properties/debugMessage",
+            "type": "string",
+            "title": "The Debugmessage Schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "Das erlaube ich dir nicht!"
+            ]
+        }
+    }
+}

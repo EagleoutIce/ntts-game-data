@@ -1,0 +1,9 @@
+{
+    "clientId" : "42ddc662-f50c-4965-8cee-f919d7e748e9",
+    "type" : "STRIKE",
+    "creationDate" : "14.04.2020 02:03:25",
+    "debugMessage" : "Dis ist de strike.",
+    "strikeNr" : 3,
+    "strikeMax" : 4,
+    "reason" : "Du bisch doof"
+}

@@ -1,0 +1,15 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "title": "The Root Schema for a GameLeft-Message.",
+    "description": "The root schema comprises the entire JSON document.",
+    "required": [
+        "type",
+        "leftUserId"
+    ],
+    "allOf": [{"$ref" : "messages/meta/message_base.schema"}],
+    "properties": {
+        "type": { "const": "GAME_LEFT" },
+        "leftUserId" : {"$ref": "messages/meta/message_datatypes.schema/#/uuid"}
+    }
+}

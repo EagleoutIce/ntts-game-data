@@ -1,0 +1,15 @@
+{
+    "clientId" : "42ddc662-f50c-4965-8cee-f919d7e748e9",
+    "type" : "REQUEST_ITEM_CHOICE",
+    "creationDate" : "24.03.2020 42:02:39",
+    "debugMessage" : "Ich brauche was von dir.",
+    "offeredCharacterIds" : [
+        "ec03bbd4-d3ea-46b7-9d63-b10560d78709",
+        "d07b4fa6-eca3-4aee-89a2-270f6a3fa3fe",
+        "229a0c7c-ce77-4982-8666-cd6e52fb1f73"
+    ],
+    "offeredGadgets" : [
+        "BOWLER_BLADE",
+        "CHICKEN_FEED"
+    ]
+}

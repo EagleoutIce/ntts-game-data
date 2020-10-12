@@ -1,0 +1,21 @@
+[
+	{
+	  "name": "James Bond",
+	  "gender": "DIVERSE",
+	  "features": [
+		"SPRYNESS",
+		"TOUGHNSS",
+		"ROBUST_STOMACH",
+		"LUCKY_DEVIL",
+		"TRADECRAFT"
+	  ]
+	},
+	{
+	  "description": "Yoda (* 896 VSY; † 4 NSY auf Dagobah) gehörte einer unbekannten Spezies an, war 66 cm groß und war am Ende seines Lebens 900 Jahre alt. Er hatte in über 800 Jahren als Jedi-(Groß-)Meister zahlreiche Schüler in der Macht ausgebildet, darunter u. a. Luke Skywalker und Count Dooku, und war ein Meister im Umgang mit dem Lichtschwert.",
+	  "features": [
+		"LUCKY_DEVIL",
+		"OBSERVATION",
+		"TOUGHNESS"
+	  ]
+	}
+  ]

@@ -1,0 +1,7 @@
+{
+    "clientId" : null,
+    "type" : "HELLO",
+    "creationDate" : "24.03.2020 02:01:38",
+    "debugMessage" : "Ich bin eine Testnachricht!",
+    "role" : "SPECTATOR"   
+}

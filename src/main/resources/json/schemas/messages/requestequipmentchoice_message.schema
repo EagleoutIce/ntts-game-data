@@ -1,0 +1,27 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "title": "The Root Schema for a RequestEquipmentChoice-Message.",
+    "description": "The root schema comprises the entire JSON document.",
+    "required": [
+        "type",
+        "chosenCharacterIds",
+        "chosenGadgets"
+    ],
+    "allOf": [{"$ref" : "messages/meta/message_base.schema"}],
+    "properties": {
+        "type": { "const": "REQUEST_EQUIPMENT_CHOICE" },
+        "chosenCharacterIds" : {
+            "type" : "array",
+            "items": {
+                "$ref": "messages/meta/message_datatypes.schema/#/uuid"
+            }
+        },
+        "chosenGadgets" : {
+            "type" : "array",
+            "items": {
+                "$ref": "messages/meta/message_datatypes.schema/#/gadgets"
+            }
+        }
+    }
+}

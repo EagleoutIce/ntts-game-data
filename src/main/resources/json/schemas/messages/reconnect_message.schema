@@ -1,0 +1,15 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "title": "The Root Schema for a Reconnect-Message.",
+    "description": "The root schema comprises the entire JSON document.",
+    "required": [
+        "type",
+        "sessionId"
+    ],
+    "allOf": [{"$ref" : "messages/meta/message_base.schema"}],
+    "properties": {
+        "type": { "const": "RECONNECT" },
+        "sessionId" : {"$ref": "messages/meta/message_datatypes.schema/#/uuid"}
+    }
+}

@@ -1,0 +1,297 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "title": "Die Partiekonfiguration",
+    "description": "Das JSON-Schema für eine Partiekonfiguration.",
+    "required": [
+        "Moledie_Range",
+        "BowlerBlade_Range",
+        "BowlerBlade_HitChance",
+        "BowlerBlade_Damage",
+        "LaserCompact_HitChance",
+        "RocketPen_Damage",
+        "GasGloss_Damage",
+        "MothballPouch_Range",
+        "MothballPouch_Damage",
+        "FogTin_Range",
+        "Grapple_Range",
+        "Grapple_HitChance",
+        "WiretapWithEarplugs_FailChance",
+        "Mirror_SwapChance",
+        "Cocktail_DodgeChance",
+        "Cocktail_Hp",
+        "Spy_SuccessChance",
+        "Babysitter_SuccessChance",
+        "HoneyTrap_SuccessChance",
+        "Observation_SuccessChance",
+        "chipsToIpFaktor",
+        "RoundLimit",
+        "TurnPhaseLimit",
+        "CatIp",
+        "StrikeMaximum"
+    ],
+    "properties": {
+        "Moledie_Range": {
+            "$id": "#/properties/Moledie_Range",
+            "type": "integer",
+            "title": "Das Moledie_range Schema",
+            "description": "Reichweite des Moledie",
+            "default": 0,
+            "examples": [
+                1
+            ],
+            "minimum": 0
+        },
+        "BowlerBlade_Range": {
+            "$id": "#/properties/BowlerBlade_Range",
+            "type": "integer",
+            "title": "Das Bowlerblade_range Schema",
+            "description": "Die Reichweite des BowlerBlades",
+            "default": 0,
+            "examples": [
+                1
+            ]
+        },
+        "BowlerBlade_HitChance": {
+            "$id": "#/properties/BowlerBlade_HitChance",
+            "type": "number",
+            "title": "Das Bowlerblade_hitchance Schema",
+            "description": "Die Trefferwahrscheinlichkeit des BowlerBlades",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "examples": [
+                0.25
+            ]
+        },
+        "BowlerBlade_Damage": {
+            "$id": "#/properties/BowlerBlade_Damage",
+            "type": "integer",
+            "title": "Das Bowlerblade_damage Schema",
+            "description": "Der Schaden des BowlerBlade-Gadgets",
+            "default": 0,
+            "examples": [
+                4
+            ]
+        },
+        "LaserCompact_HitChance": {
+            "$id": "#/properties/LaserCompact_HitChance",
+            "type": "number",
+            "title": "Das Lasercompact_hitchance Schema",
+            "description": "Die Trefferwahrscheinlichkeit des LaserCompact-Gadgets",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "examples": [
+                0.125
+            ]
+        },
+        "RocketPen_Damage": {
+            "$id": "#/properties/RocketPen_Damage",
+            "type": "integer",
+            "title": "Das Rocketpen_damage Schema",
+            "description": "Der Schaden des RocketPen-Gadgets",
+            "default": 0,
+            "examples": [
+                2
+            ]
+        },
+        "GasGloss_Damage": {
+            "$id": "#/properties/GasGloss_Damage",
+            "type": "integer",
+            "title": "Das Gasgloss_damage Schema",
+            "description": "Der Schaden des GasGloss-Gadgets",
+            "default": 0,
+            "examples": [
+                6
+            ]
+        },
+        "MothballPouch_Range": {
+            "$id": "#/properties/MothballPouch_Range",
+            "type": "integer",
+            "title": "Das Mothballpouch_range Schema",
+            "description": "Die Reichweite des MothballPouch-Gadgets",
+            "default": 0,
+            "examples": [
+                2
+            ]
+        },
+        "MothballPouch_Damage": {
+            "$id": "#/properties/MothballPouch_Damage",
+            "type": "integer",
+            "title": "Das Mothballpouch_damage Schema",
+            "description": "Der Schaden des MothballPouch-Gadgets",
+            "default": 0,
+            "examples": [
+                1
+            ]
+        },
+        "FogTin_Range": {
+            "$id": "#/properties/FogTin_Range",
+            "type": "integer",
+            "title": "Das Fogtin_range Schema",
+            "description": "Die Reichweite des FogTin-Gadgets.",
+            "default": 0,
+            "examples": [
+                2
+            ]
+        },
+        "Grapple_Range": {
+            "$id": "#/properties/Grapple_Range",
+            "type": "integer",
+            "title": "Das Grapple_range Schema",
+            "description": "Die Reichweite des Grapple-Gadgets",
+            "default": 0,
+            "examples": [
+                3
+            ]
+        },
+        "Grapple_HitChance": {
+            "$id": "#/properties/Grapple_HitChance",
+            "type": "number",
+            "title": "Das Grapple_hitchance Schema",
+            "description": "Die Trefferwahrscheinlichkeit des Grapples.",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "examples": [
+                0.35
+            ]
+        },
+        "WiretapWithEarplugs_FailChance": {
+            "$id": "#/properties/WiretapWithEarplugs_FailChance",
+            "type": "number",
+            "title": "Das Wiretapwithearplugs_failchance Schema",
+            "description": "Die Scheiterwahrscheinlichkeit des WiretapWithEarplugs-Gadgets",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "examples": [
+                0.64
+            ]
+        },
+        "Mirror_SwapChance": {
+            "$id": "#/properties/Mirror_SwapChance",
+            "type": "number",
+            "title": "Das Mirror_swapchance Schema",
+            "description": "Die Vertauschungswahrscheinlichkeit des Mirror-Gadgets, nur dann relevant, wenn es nicht auf das eigene Team angewendet wird. ",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "examples": [
+                0.35
+            ]
+        },
+        "Cocktail_DodgeChance": {
+            "$id": "#/properties/Cocktail_DodgeChance",
+            "type": "number",
+            "title": "Das Cocktail_dodgechance Schema",
+            "description": "Die Ausweichwahrscheinlichkeit im Falle eines Cocktail-Angriffs.",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "examples": [
+                0.25
+            ]
+        },
+        "Cocktail_Hp": {
+            "$id": "#/properties/Cocktail_Hp",
+            "type": "integer",
+            "title": "Das Cocktail_hp Schema",
+            "description": "Die mit einem Cocktail verknüpften Lebenspunkte.",
+            "default": 0,
+            "examples": [
+                6
+            ]
+        },
+        "Spy_SuccessChance": {
+            "$id": "#/properties/Spy_SuccessChance",
+            "type": "number",
+            "title": "Das Spy_successchance Schema",
+            "description": "Die Erfolgswahrscheinlichkeit eines Spionage-Angriffs.",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "examples": [
+                0.65
+            ]
+        },
+        "Babysitter_SuccessChance": {
+            "$id": "#/properties/Babysitter_SuccessChance",
+            "type": "number",
+            "title": "Das Babysitter_successchance Schema",
+            "description": "Die Erfolgswahrscheinlichkeit der Babysitter-Aktion.",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "examples": [
+                0.25
+            ]
+        },
+        "HoneyTrap_SuccessChance": {
+            "$id": "#/properties/HoneyTrap_SuccessChance",
+            "type": "number",
+            "title": "Das Honeytrap_successchance Schema",
+            "description": "Die Erfolgswahrscheinlichkeit der Honey-Trap",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "examples": [
+                0.35
+            ]
+        },
+        "Observation_SuccessChance": {
+            "$id": "#/properties/Observation_SuccessChance",
+            "type": "number",
+            "title": "Das Observation_successchance Schema",
+            "description": "Die Erfolgswahrscheinlichkeit der Observation.",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "examples": [
+                0.12
+            ]
+        },
+        "chipsToIpFaktor": {
+            "$id": "#/properties/chipsToIpFaktor",
+            "type": "integer",
+            "title": "Das chipsToIpFaktor Schema",
+            "description": "Wechselkurs: Wie viele IP ist ein Chips wert? ",
+            "default": 0,
+            "examples": [
+                12
+            ]
+        },
+        "RoundLimit": {
+            "$id": "#/properties/RoundLimit",
+            "type": "integer",
+            "title": "Das Roundlimit Schema",
+            "description": "Maximale Anzahl an Runden.",
+            "default": 0,
+            "examples": [
+                15
+            ]
+        },
+        "TurnPhaseLimit": {
+            "$id": "#/properties/TurnPhaseLimit",
+            "type": "integer",
+            "title": "Das Turnphaselimit Schema",
+            "description": "Maximale Dauer der Runde in Sekunden.",
+            "default": 0,
+            "examples": [
+                6
+            ]
+        },
+        "CatIp": {
+            "$id": "#/properties/CatIp",
+            "type": "integer",
+            "title": "Das Catip Schema",
+            "description": "Wie viele IP-Punkte können von der Katze erhalten werden?",
+            "default": 0,
+            "examples": [
+                8
+            ]
+        },
+        "StrikeMaximum": {
+            "$id": "#/properties/StrikeMaximum",
+            "type": "integer",
+            "title": "Das Strikemaximum Schema",
+            "description": "Maximale Anzahl an Strikes, bevor die Verbindung zum Client getrennt wird. ",
+            "default": 0,
+            "examples": [
+                4
+            ]
+        }
+    }
+}

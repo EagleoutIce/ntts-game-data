@@ -1,0 +1,7 @@
+{
+    "clientId" : "42abc662-f50c-4965-8cee-f919d7e748e9",
+    "type" : "REQUEST_GAME_PAUSE",
+    "creationDate" : "24.03.2020 02:03:38",
+    "debugMessage" : "Isch bin ene messätsch.",
+    "gamePause" : true
+}

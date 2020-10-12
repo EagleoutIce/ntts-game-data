@@ -1,0 +1,11 @@
+{
+    "clientId" : "43ddc662-f50c-4965-8cee-f919d7e748e9",
+    "type" : "EQUIPMENT_CHOICE",
+    "creationDate" : "24.03.2020 04:02:39",
+    "debugMessage" : "Das ist eine Auswahl, das du bestimmt ganz toll findest!",
+    "equipment" : {
+        "ec03bbd4-d3ea-46b7-9d63-b10560d78709" : ["BOWLER_BLADE", "MOLEDIE"],
+        "d07b4fa6-eca3-4aee-89a2-270f6a3fa3fe" : [],
+        "229a0c7c-ce77-4982-8666-cd6e52fb1f73" : ["CHICKEN_FEED"]
+    }
+}

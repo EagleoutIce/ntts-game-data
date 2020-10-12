@@ -1,0 +1,11 @@
+{
+    "clientId" : "42ddc662-f50c-4965-8cee-f919d7e748e9",
+    "type" : "GAME_STARTED",
+    "creationDate" : "24.03.2020 3:02:39",
+    "debugMessage" : "Quack the start",
+    "sessionId" : "315a470a-d519-4c18-a29e-db75c7381984",
+    "playerOneId" : "42ddc662-f50c-4965-8cee-f919d7e748e9",
+    "playerTwoId" : "ec03bbd4-d3ea-46b7-9d63-b10560d78709",
+    "playerOneName" : "Superduper-Name", 
+    "playerTwoName" : "Der Petaaaa"
+}

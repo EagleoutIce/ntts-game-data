@@ -1,0 +1,7 @@
+{
+    "clientId" : "42ddc662-f50c-4965-8cee-f919d7e748e9",
+    "type" : "ERROR",
+    "creationDate" : "24.03.2020 02:03:25",
+    "debugMessage" : "Das erlaube ich dir nicht!",
+    "reason" : "SESSION_DOES_NOT_EXIST"
+}

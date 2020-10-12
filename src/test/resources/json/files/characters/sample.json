@@ -1,0 +1,160 @@
+[
+    {
+        "name": "James Bond",
+        "description": "Bester Geheimagent aller Zeiten mit 00-Status.",
+        "gender": "DIVERSE",
+        "features": [
+            "SPRYNESS",
+            "TOUGHNESS",
+            "ROBUST_STOMACH",
+            "LUCKY_DEVIL",
+            "TRADECRAFT"
+        ]
+    },
+    {
+        "name": "Meister Yoda",
+        "description": "Yoda (* 896 VSY; † 4 NSY auf Dagobah) gehörte einer unbekannten Spezies an, war 66 cm groß und war am Ende seines Lebens 900 Jahre alt. Er hatte in über 800 Jahren als Jedi-(Groß-)Meister zahlreiche Schüler in der Macht ausgebildet, darunter u. a. Luke Skywalker und Count Dooku, und war ein Meister im Umgang mit dem Lichtschwert.",
+        "features": [
+            "LUCKY_DEVIL",
+            "OBSERVATION",
+            "TOUGHNESS"
+        ]
+    },
+    {
+        "name": "Tante Gertrude",
+        "description": "Nach wie vor die beste Tante, die man sich wünschen kann.",
+        "gender": "FEMALE",
+        "features": [
+            "NIMBLENESS",
+            "BABYSITTER",
+            "TOUGHNESS"
+        ]
+    },
+    {
+        "name": "The legendary Gustav",
+        "description": "Wer ihn wählt, cheated, so einfach ist das -- der hat einfach alles, dieser Gustav.",
+        "features": [
+            "AGILITY",
+            "LUCKY_DEVIL",
+            "BANG_AND_BURN",
+            "TRADECRAFT",
+            "OBSERVATION"
+        ]
+    },
+    {
+        "name": "Hans Peter Otto",
+        "description": "Auch Hans Otto, oder Otto-Normal genannt.",
+        "gender": "MALE",
+        "features": [
+            "ROBUST_STOMACH",
+            "FLAPS_AND_SEALS"
+        ]
+    },
+    {
+        "name": "Ein Wischmob",
+        "description": "Wieso sollte der nicht mitspielen dürfen?",
+        "features": [
+            "JINX",
+            "SPRYNESS",
+            "HONEY_TRAP"
+        ]
+    },
+    {
+        "name": "Zackiger Zacharias",
+        "description": "Langsamer, als die Polizei erlaubt.",
+        "gender": "DIVERSE",
+        "features": [
+            "PONDEROUSNESS",
+            "ROBUST_STOMACH"
+        ]
+    },
+    {
+        "name": "Schleim B. Olzen",
+        "gender": "MALE",
+        "features": [
+            "LUCKY_DEVIL",
+            "NIMBLENESS",
+            "TRADECRAFT"
+        ]
+    },
+    {
+        "name": "Spröder Senf",
+        "description": "Alle Macht dem Senf",
+        "features": [
+            "SPRYNESS",
+            "CONSTANT_CLAMMY_CLOTHES",
+            "OBSERVATION"
+        ]
+    },
+    {
+        "name": "Petterson",
+        "description": "Den Findus keiner.",
+        "features": [
+            "HONEY_TRAP",
+            "BABYSITTER",
+            "FLAPS_AND_SEALS"
+        ]
+    },
+    {
+        "name": "Mister X",
+        "description": "Wohin könnte er nur gehen?",
+        "gender": "MALE",
+        "features": [
+            "AGILITY",
+            "LUCKY_DEVIL"
+        ]
+    },
+    {
+        "name": "Mister Y",
+        "description": "Leider als Einzelkind aufgewachsen. Sowas prägt.",
+        "gender": "MALE",
+        "features": [
+            "LUCKY_DEVIL"
+        ]
+    },
+    {
+        "name": "Misses Y",
+        "description": "Ist eigentlich nur für die Gleichberechtigung hier.",
+        "gender": "FEMALE",
+        "features": [
+            "OBSERVATION",
+            "TOUGHNESS"
+        ]
+    },
+    {
+        "name": "Austauschbarer Agent Dieter 42",
+        "description": "Er war auf diesem Austauschseminar und hat sich seitdem so verändert.",
+        "gender": "DIVERSE",
+        "features": [
+            "HONEY_TRAP",
+            "LUCKY_DEVIL"
+        ]
+    },
+    {
+        "name": "Saphira",
+        "description": "Natürlich ist sie im Pool... Es ist immerhin \"Saphira\", die beste!",
+        "gender": "FEMALE",
+        "features": [
+            "AGILITY",
+            "LUCKY_DEVIL",
+            "BANG_AND_BURN",
+            "TOUGHNESS"
+        ]
+    },
+    {
+        "name": "Nr. 5",
+        "description": "Hat diese Beschreibung vor dir gelesen",
+        "features": [
+            "HONEY_TRAP",
+            "TOUGHNESS"
+        ]
+    },
+    {
+        "name": "Nr. 7",
+        "description": "Closely related to Nr. 5, aber doch nur ein Wesen in der Warteschlange",
+        "features": [
+            "NIMBLENESS",
+            "PONDEROUSNESS"
+        ]
+    }
+]

@@ -1,0 +1,23 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "title": "The Root Schema for a GameStarted-Message.",
+    "description": "The root schema comprises the entire JSON document.",
+    "required": [
+        "type",
+        "sessionId",
+        "playerOneId",
+        "playerTwoId",
+        "playerOneName",
+        "playerTwoName"
+    ],
+    "allOf": [{"$ref" : "messages/meta/message_base.schema"}],
+    "properties": {
+        "type": { "const": "GAME_STARTED" },
+        "sessionId" : {"$ref": "messages/meta/message_datatypes.schema/#/uuid"},
+        "playerOneId" : {"$ref": "messages/meta/message_datatypes.schema/#/uuid"},
+        "playerTwoId" : {"$ref": "messages/meta/message_datatypes.schema/#/uuid"},
+        "playerOneName" : {"$ref": "messages/meta/message_datatypes.schema/#/name"},
+        "playerTwoName" : {"$ref": "messages/meta/message_datatypes.schema/#/name"}
+    }
+}
